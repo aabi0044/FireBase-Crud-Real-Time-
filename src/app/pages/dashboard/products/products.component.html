@@ -1,0 +1,8 @@
+<li>Employee Details</li>
+<ul class="list-group hover">
+
+  <li class="list-group-item " *ngFor="let employee of employeeList" (click)="onItemClick(employee)">
+
+    {{employee.name}} - {{employee.position}} 
+  </li>
+</ul>
